@@ -1,0 +1,98 @@
+@media screen and (min-width: 481px) and (max-width: 991.98px) {
+    .main {
+
+        &__wrapper {
+            margin: 0 auto;
+        }
+
+        .rows {
+
+            .item {
+                &__data {
+                    margin: 16px 30px;
+                    &__status {
+                        &__activity {
+                            gap: 8px;
+                            p {
+                                gap: 6px;
+                                font-size: 14px;
+                                span {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                    &__date {
+                        &__activity {
+                            gap: 8px;
+
+                            p {
+                                gap: 6px;
+                                font-size: 14px;
+
+                                span {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                    &__upload {
+                        p:nth-child(1) {
+                            font-size: 14px;
+                        }
+
+                        p:last-child {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .tiles {
+            justify-content: center;
+            .item {
+                width: 50%;
+                &__data {
+                    &__status {
+                        &__activity {
+                            gap: 8px;
+                            p {
+                                gap: 6px;
+                                font-size: 14px;
+                                span {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                    &__date {
+                        justify-self: flex-end;
+                        &__activity {
+                            gap: 8px;
+
+                            p {
+                                justify-content: flex-end;
+                                gap: 6px;
+                                font-size: 14px;
+
+                                span {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                    &__upload {
+                        p:nth-child(1) {
+                            font-size: 14px;
+                        }
+
+                        p:last-child {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

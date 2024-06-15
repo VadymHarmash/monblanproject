@@ -1,0 +1,45 @@
+@media screen and ((min-width: 320px) and (max-width: 480.98px)),
+(max-width: 319.98px) {
+    .header{
+        &__logo{
+            display: none;
+        }
+        &__wrapper {
+            max-width: 320px;
+            justify-content: center;
+        }
+
+        &__info {
+            align-items: center;
+    
+            &__header {
+    
+                p {
+                    font-size: 16px;
+                }
+    
+                button {
+    
+                    span {
+                        font-size: 12px;
+                    }
+                }
+            }
+    
+            &__body {
+                ul {
+                    gap: 6px;
+                    li p {
+                        span{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+    
+            &__footer {
+                flex-direction: column;
+            }
+        }
+    }
+}
